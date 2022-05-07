@@ -1,0 +1,125 @@
+#navbar{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#upper{
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 100, 174);
+   
+}
+#show{
+    margin-left: 5%;
+}
+
+#show :hover{
+    color: white;
+}
+#service{
+    display: flex;
+    justify-content: space-around;
+    gap :15px;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+}
+#service > div:hover{
+    color:white;
+}
+.abc{
+    display: flex;
+    gap: 8px;
+}
+
+
+#middle{
+    height:70px;
+    width: 100%;
+    border: 1px solid rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    gap: 20px;
+}
+#categories >div:hover{
+    color:  rgb(240, 9, 124);
+}
+.submenu{
+    display:none;
+}
+
+#categories >div :hover .submenu{
+    display: block;
+    position: absolute;
+    
+}
+#customer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgs{
+    height: 30px;
+    width:80px;
+}
+#search{
+    border:1px solid gray ;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+#searchPd{
+    /* background-color: #0F0617; */
+    height: 36px;
+    font-size: 12px;
+    width: 100%;
+    /* border: none; */
+    font-weight: bold;
+    color: black;
+    border: none;
+    
+}
+
+
+#bottom{
+    height: 50px;
+    width: 100%;
+    border: 1px solid  rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A94;
+    border-top: none;
+    text-decoration: bold;
+}
+
+#bottom >div:hover{
+ color: rgb(240, 9, 124);
+}
+
+
+#hairanchor a{
+    text-decoration: none;
+    color: #03021A94;
+}
+#hairanchor a:hover{
+    color: rgb(240, 9, 124);
+}
